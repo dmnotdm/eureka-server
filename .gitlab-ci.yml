@@ -32,4 +32,4 @@ deploy:
     - master
     - /^v\d+\.\d+(\.\d+)?(-\S*)?/
   script:
-    - mvn -B -e deploy -Dmaven.test.skip=true
+    - mvn clean -B -e deploy -Dmaven.test.skip=true
