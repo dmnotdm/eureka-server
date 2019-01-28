@@ -5,8 +5,8 @@
 
     <parent>
         <groupId>com.zzz</groupId>
-        <artifactId>web-base</artifactId>
-        <version>0.0.2</version>
+        <artifactId>docker-builder-spring</artifactId>
+        <version>0.0.1</version>
     </parent>
 
     <artifactId>eureka-server</artifactId>
