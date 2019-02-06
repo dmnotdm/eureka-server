@@ -6,11 +6,11 @@
     <parent>
         <groupId>com.zzz</groupId>
         <artifactId>docker-builder-spring</artifactId>
-        <version>0.0.3</version>
+        <version>0.0.1</version>
     </parent>
 
     <artifactId>eureka-server</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>eureka-server</name>
@@ -28,7 +28,7 @@
     <!-- @formatter:on -->
 
     <properties>
-        <mainClass>com.zzz.mysite.web.eureka.Application</mainClass>
+        <mainClass>com.zzz.web.eureka.Application</mainClass>
     </properties>
 
 </project>

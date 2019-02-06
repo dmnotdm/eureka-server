@@ -1,4 +1,4 @@
-package com.zzz.mysite.web.eureka;
+package com.zzz.web.eureka;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
