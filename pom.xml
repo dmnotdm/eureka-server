@@ -28,7 +28,7 @@
     <!-- @formatter:on -->
 
     <properties>
-        <mainClass>com.zzz.mysite.web.eureka.Application</mainClass>
+        <mainClass>com.zzz.web.eureka.Application</mainClass>
     </properties>
 
 </project>
