@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>eureka-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>eureka-server</name>
@@ -28,7 +28,7 @@
     <!-- @formatter:on -->
 
     <properties>
-        <mainClass>com.zzz.mysite.web.eureka.Application</mainClass>
+        <mainClass>com.zzz.web.eureka.Application</mainClass>
     </properties>
 
 </project>
