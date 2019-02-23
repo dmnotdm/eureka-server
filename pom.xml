@@ -16,6 +16,7 @@
     <name>eureka-server</name>
     <description>Spring Cloud Eureka</description>
 
+    <!-- @formatter:off-->
     <dependencyManagement>
 
     </dependencyManagement>
