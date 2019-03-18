@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.zzz</groupId>
         <artifactId>docker-builder-spring</artifactId>
-        <version>0.0.3</version>
+        <version>0.0.4-SNAPSHOT</version>
     </parent>
 
     <artifactId>eureka-server</artifactId>
@@ -20,9 +20,11 @@
     <build>
         <plugins>
             <plugin><groupId>org.springframework.boot</groupId><artifactId>spring-boot-maven-plugin</artifactId></plugin>
-            <plugin><groupId>com.spotify</groupId><artifactId>docker-maven-plugin</artifactId></plugin>
+            <plugin><artifactId>maven-antrun-plugin</artifactId><executions><execution><id>echo-git-id</id><phase>package</phase><goals><goal>run</goal></goals><configuration><target><echo>git commit id is ${git.commit.id}</echo></target></configuration></execution></executions></plugin>
+            <plugin><groupId>io.fabric8</groupId><artifactId>docker-maven-plugin</artifactId></plugin>
         </plugins>
     </build>
+    <!-- @formatter:on -->
 
     <!-- @formatter:off -->
     <dependencies>
