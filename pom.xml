@@ -13,7 +13,6 @@
     <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>eureka-server</name>
     <description>Spring Cloud Eureka</description>
 
     <!-- @formatter:off-->
